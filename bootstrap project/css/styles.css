@@ -8,6 +8,7 @@ body {
     background-color: #007bff;
     color: #fff;
 }
+
 .color-section{
     background-color: #007bff;
 
@@ -48,6 +49,13 @@ p {
 .nav-item {
     padding: 0 18px;
 }
+
+.nav-link:hover {
+    background: gray;
+    border-radius: 20px;
+    transition: ease-in-out .5s;
+}
+
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat";
